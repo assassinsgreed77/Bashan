@@ -1,0 +1,311 @@
+body {
+    font-family: centerGothic;
+}
+@font-face{
+	font-family: akrobatBold;
+	src:url(../fonts/Akrobat-Bold.otf);
+}
+@font-face{
+	font-family: centerGothic;
+	src:url(../fonts/gothic_0.ttf);
+}
+body{
+	font-family: centerGothic;
+}
+p, div{
+	padding: 0;
+	margin:0;
+}
+a, a:hover{
+	text-decoration: none;	
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+.top-line{
+	height: 81px;
+	width: 100%;
+	position: absolute;
+	background-image: url(../img/1.jpg);
+	background-repeat: repeat-x;
+}
+header{
+	background-image:url(../img/header-slide1.jpg);
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+.top-line a{
+	color:#fff;
+	font-size:20px;
+
+}
+.email{
+	margin-top: 10px;
+}
+.menu{
+	min-height: 500px;
+	width:321px;
+	border:3px solid #fff;
+	background-color: rgba(196,206,215, .70);
+
+}
+.logo{
+  width: 100%;
+  background-color:#C4CED7;
+  min-height: 170px;
+  padding: 0 10px;
+  
+
+}
+.item-logo{
+	width: 250px;
+	margin:0 auto;
+}
+header ul  a li {
+	color:#4D4D4D;
+	font-size: 25px;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	    padding: 10px 20px;
+
+}
+header ul li{
+	border-bottom: 3px solid #fff;
+}
+header  ul  a li:hover{
+	background:#f9f9f9;
+	color:red;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.kontakty { 
+  padding-left:20px; 
+  background-color: rgba(196,206,215, .40);
+  line-height: 50px;
+ }
+ .kontakty a{ 
+    color: #4D4D4D;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .header-content{
+ 	margin-top: 230px;
+ }
+  .header-content h2{
+  	font-size: 45px;
+  	color:#fff;
+  	font-family: 'Century Gothic';
+  }
+ .header-content p{
+ 	font-size: 19px;
+ 	color:#fff;
+ 	font-family: 'Calibri Light';
+ }
+  .o-zavode{
+ 	height: 81px;
+	width: 100%;
+	background-image: url(../img/1.jpg);
+	background-repeat: repeat-x;
+ }
+ .o-zavode h3{
+ 	text-align: center;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	font-family: 'Century Gothic' ;
+ 	font-weight: bold;
+ }
+ .wrapper{
+ 	
+ 	background-image: url(../img/bg-zavod.jpg);
+ 	background-size: cover;
+ }
+  .wrapper h2{
+  	font-weight: bold;
+  	text-align: center;
+  	color: #B8040A;
+  	font-family:'Century Gothic';
+  }
+ .wrapper p{
+	
+	
+	}
+.product img{
+	border:12px solid #fff;
+	border-radius: 50%;
+}
+.product{
+	background-color: #B3B3B3;
+	border-radius: 50% 50% 0 0;
+	border-bottom: 10px solid #FF6B26;
+	width: 180px;
+	margin: 0 auto;
+}
+.product p{
+	font-family: 'Century Gothic';
+    margin-left: 45px;
+	color: #fff;
+	font-size: 20px;
+}
+.Boshan{
+	margin-top: 40px;
+	background-image: url(../img/b.png);
+	background-repeat: no-repeat;
+	background-position: 30px 0;
+	padding-left: 90px;
+	height: 47px;
+	display: block;
+	padding-top: 8px;
+	font-family: 'Century Gothic';
+	font-size: 20px;
+	border-bottom: 2px solid black;
+}
+.wrapper strong{
+   color:#B8040A;
+}
+.content p{
+	font-size: 15px;
+	margin-top: 25px;
+
+}
+.content {
+	padding-top: 20px;
+}
+.dost{
+	background-image: url(../img/dost.jpg);
+	background-size: cover;
+	
+	position: relative;
+
+}
+.linia {
+    height: 14px;
+    border: 5px solid #FF6B26;
+    width: 100%;
+    position: absolute;
+    bottom: -229px;
+    background-color: #fff;
+
+}
+.dost1{
+    min-height:310px;
+
+ 	background-repeat: no-repeat;
+ 	background-position: 138px 280px;
+ 	position: relative;
+
+
+}
+.dost1 .img-1{
+	position: absolute;
+	bottom:104px;
+	left: 80px;
+}
+ .dost1 .img{
+	position: absolute;
+	bottom: 74px;
+	left: 140px;
+	z-index: 100;
+}
+.karta{
+	background: url(../img/karta.jpg);
+    background-size: cover;
+}
+.footer{
+	background-image: url(../img/footer.jpg);
+	background-size: cover;
+}
+.footer ul li {
+	border-bottom: none;
+}
+.footer ul li a{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Calibri Light';
+	margin-left: 0;
+}
+.footer ul li a:hover{
+	color: #fff;
+	border-bottom: 3px solid #fff;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	   
+}
+.footer h4{
+	color:#fff;
+	font-weight: bold;
+	font-size: 25px;
+}
+.footer p{
+	color: #fff;
+	font-family: 'Calibri Light';
+	font-size: 17px;
+}
+.footer-text, .footer .menu1{
+	margin-top: 50px;
+}
+.footer-text p{
+	font-size: 18px;
+}
+.footer a{
+	color: #fff;
+}
+.footer ul{
+	line-height: 37px;
+}
+.vse{
+	min-height: 380px;
+	background: rgba(123, 32, 35, .60);
+	    margin-top: 1px;
+}
+.vse img{
+	margin-top: 110px;
+}
+.text-vse{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.footer-line{
+	background-color: rgba(77,77,77, .65);
+	height: 40px;
+}
+.footer-line p{
+	text-align: center;
+	line-height: 40px;
+}
+.text p{
+	line-height: 32px;
+	font-size: 18px;
+}
+
+@media only screen and (max-width:744px){
+	
+	.linia {
+    height: 14px;
+    border: 5px solid #FF6B26;
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    background-color: #fff;
+
+}	
+	.header-content h2{
+		font-size: 30px;
+		margin-top: -100px;
+	}
+	.vse{
+		background:none;
+	}
+	.text-vse{
+	margin-top: -110px;
+	margin-left: 50px;
+}
+}
+.productsia ul li{
+	float: left;
+} 
